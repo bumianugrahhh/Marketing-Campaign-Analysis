@@ -31,3 +31,6 @@ Sebelum melatih model, dilakukan Split Data Train dan Data Test (test size 30%).
 - Random Forest
 - XGBoost
 - AdaBoost
+
+# Model Evaluation
+
