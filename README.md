@@ -25,7 +25,7 @@ Membuat marketing campaign yang tepat sasaran (response rate dan profit tinggi).
 ![Distribution of Recency to Response](https://user-images.githubusercontent.com/104814864/232990053-c34884e0-0728-45c3-9461-0301d0fedcd4.png)
 
 # ML Modeling
-Sebelum melatih model, dilakukan Split Data Train dan Data Test (test size 30%). Melatih model dengan 5 algoritma berbeda dan mengevaluasinya dengan ROC_AUC. Alasan mengurangi False Positive dan False Negative agar campaign yang dilakukan tepat sasaran, yang mana Revenue Lossnya kecil dan Cost yang digunakan juga optimal sehingga menghasilkan Profit yang tinggi. Model dilatih dengan :
+Sebelum melatih model, dilakukan Split Data Train dan Data Test (test size 30%). Melatih model dengan 5 algoritma berbeda dan mengevaluasinya dengan **ROC AUC**. Alasan mengurangi False Positive dan False Negative agar campaign yang dilakukan tepat sasaran, yang mana Revenue Lossnya kecil dan Cost yang digunakan juga optimal sehingga menghasilkan Profit yang tinggi. Model dilatih dengan :
 - Logistic Reggresion
 - Decision Tree
 - Random Forest
@@ -33,7 +33,8 @@ Sebelum melatih model, dilakukan Split Data Train dan Data Test (test size 30%).
 - AdaBoost
 
 # Model Evaluation
-Model | TRain ROC AUC | Test ROC AUC
+Model di evaluasi dengan **ROC AUC** kemudian memilih Top 3 ROC AUC tertinggi. Karena masih cenderung overfitting maka akan dilakukan hyperparameter tuning selanjutnya.
+Model | Train ROC AUC | Test ROC AUC
 ----- | ------------- | ------------
 Random Forest Classifier | 0.999968 | 0.883274
 XGBOost Classifier | 0.999974 | 0.861372
