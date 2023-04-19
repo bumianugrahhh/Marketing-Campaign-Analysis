@@ -33,4 +33,7 @@ Sebelum melatih model, dilakukan Split Data Train dan Data Test (test size 30%).
 - AdaBoost
 
 # Model Evaluation
-
+Model | TRain ROC AUC | Test ROC AUC
+Random Forest Classifier | 0.999968 | 0.883274
+XGBOost Classifier | 0.999974 | 0.861372
+AdaBoost Classifier | 0.938959 | 0.884735
