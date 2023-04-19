@@ -3,8 +3,9 @@
 - Dataset ini diperoleh dari [Marketing Campaign | Kaggle](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign)
 - Membersihkan data dari missing value dengan cara drop() kolom Income.
 - Engineered features untuk mengoptimalkan proses pembelajaran model.
-- *Handle Imbalanced Class* dengan 3 metode sampling berbeda kemudian memasangkan model untuk setiap metode sampling dengan menggunakan 7 algoritma berbeda, lalu pilih metode terbaik dan top 3 algoritma untuk selanjutnya dilakukan hyperparameter tuning.
-- Validasi model dengan data test
+- *Handle Imbalanced Class* dengan 3 metode sampling berbeda kemudian memasangkan model untuk setiap metode sampling dengan menggunakan 5 algoritma berbeda, lalu pilih metode terbaik dan top 3 algoritma untuk selanjutnya dilakukan hyperparameter tuning. 
+- Validasi model dengan data test.
+- Model yang dipilih adalah *Random Forest*
 
 ## Problem:
 PT. NolBir bergerak dibidang retail menjual berbagai produk seperti wine, buah-buahan, daging ikan, makanan manis, dan juga emas. Untuk melakukan pembelian customer dapat langsung ke store melalui website maupun catalog.
@@ -24,4 +25,9 @@ Membuat marketing campaign yang tepat sasaran (response rate dan profit tinggi).
 ![Distribution of Recency to Response](https://user-images.githubusercontent.com/104814864/232990053-c34884e0-0728-45c3-9461-0301d0fedcd4.png)
 
 # ML Modeling
-Sebelum melatih model, dilakukan Split Data Train dan Data Test (test size 30%). Melatih 7 algoritma berbeda pada setiap metode sampling (3 metode sampling yang digunakan) dan mengevaluasinya dengan ROC_AUC. 
+Sebelum melatih model, dilakukan Split Data Train dan Data Test (test size 30%). Melatih model dengan 5 algoritma berbeda dan mengevaluasinya dengan ROC_AUC. Alasan mengurangi False Positive dan False Negative agar campaign yang dilakukan tepat sasaran, yang mana Revenue Lossnya kecil dan Cost yang digunakan juga optimal sehingga menghasilkan Profit yang tinggi. Model dilatih dengan :
+- Logistic Reggresion
+- Decision Tree
+- Random Forest
+- XGBoost
+- AdaBoost
