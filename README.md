@@ -48,3 +48,6 @@ Random Forest Classifier | 0.9684294270299644 | 0.8929469026548671
 # Business Insight and Recommendation
 1. **Recency** rendah : customer yang barumelakukan pembelian. <br>
 Menargetkan campaign kepada customer yang **akhir-akhir ini melakukan pembelian**.
+2. Banyak yang berasal dari kategori **usia 38-53 tahun**. <br>
+**Menargetkan campaign kepada customer yang berusia sekitar 38-53 tahun** karena customer tersebut terlihat memiliki karakteristik lebih bersedia untuk menerima suatu campaign.
+3. Banyak customer yang **baru beberapa kali melakukan pembelian** (number of purchases rendah), baik melalui store/ website/ catalog/ dengan diskon. Menargetkan campaign kepada customer yang **baru beberapa kali melakukan pembelian** karena customer baru mungkin belum pernah menerima campaign sebelumnya, sehingga pada campaign terakhir terdapat beberapa customer baru yang tertarik untuk mencoba/menerima campaign.
