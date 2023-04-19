@@ -39,3 +39,14 @@ Model | Train ROC AUC | Test ROC AUC
 Random Forest Classifier | 0.999968 | 0.883274
 XGBOost Classifier | 0.999974 | 0.861372
 AdaBoost Classifier | 0.938959 | 0.884735
+
+Setelah dilakukan hyperparameter tuning didaptkan bahwa **Random Forest** memiliki performa model terbaik.
+Model | Train ROC AUC | Test ROC AUC
+----- | ------------- | ------------
+Random Forest Classifier | 0.9684294270299644 | 0.8929469026548671
+
+# Business Insight and Recommendation
+1. **Recency** rendah : customer yang baru
+melakukan pembelian. Menargetkan campaign kepada
+customer yang **akhir-akhir ini
+melakukan pembelian**.
