@@ -46,5 +46,5 @@ Model | Train ROC AUC | Test ROC AUC
 Random Forest Classifier | 0.9684294270299644 | 0.8929469026548671
 
 # Business Insight and Recommendation
-1. **Recency** rendah : customer yang barumelakukan pembelian.
+1. **Recency** rendah : customer yang barumelakukan pembelian. <br>
 Menargetkan campaign kepada customer yang **akhir-akhir ini melakukan pembelian**.
