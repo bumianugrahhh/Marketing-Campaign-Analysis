@@ -1,5 +1,5 @@
 # **Marketing Campaign Analysis : Project Overview**
-- Membangun model machine learning yang mampu memprediksi apakah seorang customer akan merespon campaign selanjutnya atau tidak.
+- Membangun classification model machine learning yang mampu memprediksi apakah seorang customer akan merespon campaign selanjutnya atau tidak.
 - Dataset ini diperoleh dari [Marketing Campaign | Kaggle](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign)
 - Membersihkan data dari missing value dengan cara drop() kolom Income.
 - Engineered features untuk mengoptimalkan proses pembelajaran model.
@@ -22,3 +22,6 @@ Membuat marketing campaign yang tepat sasaran (response rate dan profit tinggi).
 ![Amount of Dependents](https://user-images.githubusercontent.com/104814864/232989648-2545606d-d460-481f-906b-cdc332c82170.png)
 4. Customer yang baru-baru ini melakukan pembelian, kemungkinan meresponse campaign
 ![Distribution of Recency to Response](https://user-images.githubusercontent.com/104814864/232990053-c34884e0-0728-45c3-9461-0301d0fedcd4.png)
+
+# ML Modeling
+Sebelum melatih model, dilakukan Split Data Train dan Data Test (test size 30%). Melatih 7 algoritma berbeda pada setiap metode sampling (3 metode sampling yang digunakan) dan mengevaluasinya dengan ROC_AUC. 
